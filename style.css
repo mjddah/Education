@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    text-align: center;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 20px;
+    color: rgb(199, 106, 168);
+}
+
+.link ol {
+    display: flex;
+    list-style: none;
+}
+
+.link li {
+    display: flex;
+    padding: 20px;
+}
+
+.outer-conc {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.inner-conc {
+    max-width: 400px;
+    align-items: center;
+    
+}
+
+.h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(0, 162, 255);
+    text-align: center;
+    /* margin: 80px 0px 0px 40px; I decided to add this margin here cos na kasa aligning center */
+}
+
+.p {
+    font-size: 1.5rem;
+    text-align: center;
+}
